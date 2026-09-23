@@ -1,0 +1,56 @@
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Build and Output
+bin/
+obj/
+*.nupkg
+*.snupkg
+appsettings.Development.json
+appsettings.Local.json
+
+# Node & Frontend (React/Vite)
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# Flutter & Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/build/
+*.lock
+
+# Environment & Local Secrets
+.env
+.env.*.local
+*.pfx
+*.certificate
+
+# Scratch & Temporary
+scratch/
+text.txt
